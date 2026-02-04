@@ -1,0 +1,17 @@
+# Python garbage
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+
+# Large Model Files (Не заливай ваги моделі!)
+*.safetensors
+*.bin
+*.pth
+/taxi_dpo_cpu_final/
+/dpo_taxi_model/
+
+# IDE settings
+.vscode/
+.idea/
